@@ -1,0 +1,11 @@
+I began by going to github.com, logging in, and creating a new (empty) repository
+called "basic_repo". Next I navigated to my directory where I keep my coding
+dojo assignments, and created a new repository called "basic_repo".
+After I did that, I created a README.md file and two other random .txt files.
+I then initialized git on my local directory, and then added the URL from github.com's
+copy of the repository I had created there as a remote repository so I could push my code there.
+Next I tried to use git to push my code.  It didn't work, because my SSH key wasn't set up
+and my account is configured to use SSH authentication, so I had to get my ssh key
+(it was located in ~/.ssh/id_rsa) and after copying it and pasting it into the "import
+SSH key" section of the settings on github.com, I was able to use git to push my 
+code to github.  I then wrote this text document.
